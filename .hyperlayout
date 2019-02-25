@@ -1,0 +1,21 @@
+{
+  "default": [
+
+    [
+      ["cd ~/src/powerschool-design-system && clear", "cd ~/src/powerschool-design-system-site && clear"],
+      ["cd ~/src/powerschool-design-system && clear && gs", "cd ~/src/powerschool-design-system-site && clear && gs"]
+    ]
+    
+  ],
+  "adc": [
+    [
+      ["cd ~/src/adc && ll", ["cd ~/src/adc && gatsby develop", "cd ~/src/adc && gs"]]
+    ]
+  ], 
+    "cp": [
+      [
+        ["cd ~/src/powerschool-design-system && clear", "cd ~/src/powerschool-design-system && clear", "cd ~/src/cp && clear"],
+        ["cd ~/src/powerschool-design-system-site && clear", "cd ~/src/powerschool-design-system-site && clear", "cd ~/src/cp/portal && clear"]
+      ]
+    ]   
+}
