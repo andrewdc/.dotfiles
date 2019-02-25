@@ -19,6 +19,9 @@ Now for the fun part. We will make an alias for running git commands in our .dot
 ```
 alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
+
+_Note from adc: My git was in `/usr/bin/git`. Never forget the always handy `which git`_ 
+
 Add this alias to your .bashrc or .zshrc. From now on, any git operation you would like to do in the .dotfiles repository can be done by the dotfiles alias. The cool thing is that you can run dotfiles from anywhere.
 
 Let’s add a remote, and also set status not to show untracked files:
